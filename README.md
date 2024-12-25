@@ -25,7 +25,7 @@ This repository is a collection of projects and examples showcasing the capabili
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Ali-Khajavi/ESP8266-IoT-Projects.git
+   git clone https://github.com/Ali-khajavi/ESP8266.git
    ```
 
 2. **Navigate to the Examples Folder**:
