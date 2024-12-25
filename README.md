@@ -46,7 +46,7 @@ ESP8266-IoT-Projects/
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your_username/ESP8266-IoT-Projects.git
+   git clone https://github.com/Ali-Khajavi/ESP8266/
    ```
 
 2. **Navigate to the Examples Folder**:
