@@ -2,27 +2,6 @@
 
 This repository is a collection of projects and examples showcasing the capabilities of the ESP8266 microcontroller for IoT applications. Each project is stored in the `Examples` folder, providing practical implementations of various IoT concepts.
 
-## Repository Structure
-
-```
-ESP8266-IoT-Projects/
-├── Examples/
-│   ├── WiFi-Multi-Connection/
-│   │   ├── WiFiMultiConnection.ino
-│   │   └── README.md
-│   ├── Temperature-Logging-InfluxDB/
-│   │   ├── TemperatureLogger.ino
-│   │   └── README.md
-│   ├── MQTT-Data-Publisher/
-│   │   ├── MQTTPublisher.ino
-│   │   └── README.md
-│   ├── Deep-Sleep-Power-Saving/
-│   │   ├── DeepSleepExample.ino
-│   │   └── README.md
-│   └── README.md
-├── README.md
-└── LICENSE
-```
 
 ## Projects in `Examples`
 
@@ -46,18 +25,19 @@ ESP8266-IoT-Projects/
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Ali-Khajavi/ESP8266/
+   git clone https://github.com/your_username/ESP8266-IoT-Projects.git
    ```
 
 2. **Navigate to the Examples Folder**:
-   Each example has its own subfolder containing the `.ino` file and a dedicated `README.md` with setup instructions.
+   Each example has its own subfolder containing the `.cpp` file and a dedicated `README.md` with setup instructions.
 
 3. **Load the Example Code**:
-   - Open the `.ino` file in Arduino IDE or your preferred development environment.
+   - Open the project folder in Visual Studio Code.
+   - Ensure PlatformIO is installed as an extension in VS Code.
    - Update configurations (Wi-Fi credentials, database URLs, etc.) as specified in the example's `README.md`.
 
-4. **Upload and Test**:
-   - Compile and upload the code to your ESP8266 board.
+4. **Build and Upload**:
+   - Use the PlatformIO toolbar or CLI to build and upload the code to your ESP8266 board.
    - Monitor the serial output for debugging and ensure the functionality works as intended.
 
 ## Requirements
@@ -74,7 +54,7 @@ ESP8266-IoT-Projects/
   - `ESP8266WiFiMulti`
   - `InfluxDbClient`
   - `PubSubClient`
-  - `OneWire` and `DallasTemperature` (if applicable)
+  - `OneWire` and `DallasTemperature`
 
 ## Contribution Guidelines
 
